@@ -1,0 +1,31 @@
+classno = None
+average = "%.2f" % (float(output)/float(classno)) 
+while classno == None: 
+    try:
+        classno= int(input("¿Cuantas clases llevas?"))
+        print("Su promedio es: ", (str(average))) 
+    except:
+        print("Error,Favor ingresar numéro")
+         
+output = 0 
+i = 0
+while i<classno: 
+    grade = input ("Ingresa tu nota en letra para el %s de la clase") %(str(i+1)) 
+    grade = grade.upper() 
+if grade == 'A' or grade == 'B' or grade == 'C' or grade == 'D' or grade == 'E' or grade == 'F':
+    i += 1
+    if grade == 'A':
+        output += 4
+    elif grade == 'B':
+        output += 3
+    elif grade == 'C':
+        output += 2
+    elif grade == 'E':
+        output += 1
+    elif grade == 'F':
+        output += 0
+    print(output) 
+else:
+        print("Error,Favor ingresar: A, B, C, D o F")
+average = "%.2f" % (float(output)/float(classno)) 
+print("Su promedio es: ", (str(average)))  
