@@ -11,8 +11,8 @@ def calificionNotas(notas):
     elif notas <= 0.6: 
         print("Insuficiente") 
 try: 
-    notas = int(input ("Ingresa nota obtenida: "))
-    print("Calificacion:", notas)
+    notas = float(input ("Ingresa nota obtenida: "))
+    print("Calificacion:", calificacion)
 
 except:   
     print("Error, ingresar un numéro entre 0.0 y 1.0")  
