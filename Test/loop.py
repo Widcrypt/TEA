@@ -1,8 +1,8 @@
-n=0
-while n>0:
-    print('lather')
-    print('rinse')
-print('Dry Off')
+#n=0
+#while n>0:
+#    print('lather')
+#    print('rinse')
+#print('Dry Off')
 
 # print x
 #x = 'From marquard@uct.ac.za'

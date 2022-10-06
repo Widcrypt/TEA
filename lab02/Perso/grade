@@ -7,7 +7,7 @@ while classno == None:
     except:
         print("Error,Favor ingresar numéro")
          
-output = 0 
+output=0 
 i = 0
 while i<classno: 
     grade = input ("Ingresa tu nota en letra para el %s de la clase") %(str(i+1)) 
